@@ -9,7 +9,7 @@ import java.util.Scanner;
 
 public class SurrogatePkTest 
 {
-	private static final String INSERTQUERY="insert into student values(SEQ1.NEXTVAL,?,?,?)";
+	private static final String INSERTQUERY="INSERT INTO STUDENT VALUES(SEQ1.NEXTVAL,?,?,?)";
 	public static void main(String[] args) 
 	{
 		Scanner sc=null;
