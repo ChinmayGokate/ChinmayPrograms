@@ -10,7 +10,7 @@ import java.util.Scanner;
 
 import javax.sql.rowset.RowSetFactory;
 import javax.sql.rowset.RowSetProvider;
-
+//Converting String date format to Sql date format
 public class PsDateInsertTest 
 {
 	private static final String INSERT_DATE ="INSERT INTO PERSON_INFO_DATES VALUES (SEQ1.NEXTVAL,?,?,?,?,?)";
