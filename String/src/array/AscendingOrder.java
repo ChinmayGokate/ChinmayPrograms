@@ -15,8 +15,7 @@ public class AscendingOrder
 				{
 					temp=arr[i];
 					arr[i]=arr[j];
-					arr[j]=temp;
-					
+					arr[j]=temp;	
 				}
 			}
 			System.out.println(arr[i]);

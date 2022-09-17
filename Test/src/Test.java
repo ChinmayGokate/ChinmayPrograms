@@ -1,29 +1,28 @@
-public class Test{
-
-    static int x = 4;
-
-    public Test(){
-
-        System.out.print(this.x); // line 1
-        //static int a=10;
-        Test(10);
-
-    }
-    void meth1()
+class O
+{
+	public static void m1() {
+		System.out.println("parent static");
+	}
+	public static void main(String[] args) 
+	{
+		System.out.println("parent");
+	}
+}
+public class Test extends O
+{
+	public static void m1() {
+		System.out.println("child static");
+	}
+	Test()   //
+	{
+		
+	}
+    public static void main(String... args)
     {
-    	// static int b=10;
-    }
-    public static void Test(int x){ // line 2
-
-        //System.out.print(this.x); // line 3
-
-    }
-    
-
-    public static void main(String... args){ // line 4
-
-        new Test();
-
+    	System.out.println("child");
+    	Test.m1();//creating pure child class object  
+    	O o=new Test();//Creating child class object and Store it into Parent class object 
+    	o.m1();
     }
 
 }

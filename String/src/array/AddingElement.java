@@ -1,17 +1,25 @@
 package array;
-
+//Corect program
 public class AddingElement 
 {
 	public void addElement(int arr[])
 	{
+		int arr1[]=new int[arr.length+1];
 		int element=20;
 		int index=4;
-		for(int i=0;i<arr.length;i++)
+		for(int i=0,j=0;i<arr.length;i++,j++)
 		{	
 			if(i==4)
 			{
-				arr[i]=element;
-			}System.out.println(arr[i]);
+				arr1[j]=element;
+				j++;
+			}
+			arr1[j]=arr[i];
+			//System.out.println(arr1[j]);
+		}
+		for(int i=0;i<arr1.length;i++)
+		{
+			System.out.println(arr1[i]);
 		}
 	}
 	public static void main(String[] args) 

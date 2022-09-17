@@ -1,6 +1,6 @@
 package string;
-/*Create a method which can perform a particular String operation based on the user’s choice.
- The method should accept the String object and the user’s choice and return the output of the operation. 
+/*Create a method which can perform a particular String operation based on the userï¿½s choice.
+ The method should accept the String object and the userï¿½s choice and return the output of the operation. 
 Options are 
 A: Add the String to itself 
 B: Replace alternate positions with * 
@@ -51,7 +51,7 @@ public class Oparetion
 						count++;
 					}
 				}
-				if(count!=2)
+				if(count<=2)
 				{
 					System.out.print(ch1[i]);
 				}
@@ -66,6 +66,6 @@ public class Oparetion
 	}
 	public static void main(String[] args) {
 		Oparetion op=new Oparetion();
-		op.changeString("Chinmaya", 'C');
+		op.changeString("Chinmayaa", 'C');
 	}
 }

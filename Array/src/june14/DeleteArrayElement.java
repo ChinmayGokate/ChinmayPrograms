@@ -1,7 +1,7 @@
 package june14;
 
 import java.util.Scanner;
-
+//wrong program
 public class DeleteArrayElement 
 {
 	public void deleteArrayElement()
