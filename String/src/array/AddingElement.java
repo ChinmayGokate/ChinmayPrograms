@@ -1,5 +1,5 @@
 package array;
-//Corect program
+//Correct program
 public class AddingElement 
 {
 	public void addElement(int arr[])

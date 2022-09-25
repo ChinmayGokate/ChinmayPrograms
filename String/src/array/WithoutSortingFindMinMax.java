@@ -31,10 +31,7 @@ public class WithoutSortingFindMinMax
 			{
 				arr1[i]=arr[i];
 				//System.out.println(arr1[i]);
-			}
-			
-			
-			
+			}	
 		}
 		int max11=0;
 		for(int i=0;i<arr1.length;i++)
